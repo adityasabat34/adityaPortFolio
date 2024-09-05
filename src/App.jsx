@@ -1,8 +1,12 @@
-import React from 'react';
+import Home from './components/Home';
+import Navbar from './components/Navbar';
 
 const App = () => {
   return (
-    <div className="text-3xl text-center text-orange-500 font-bold"> App</div>
+    <div className="bg-darkClay">
+      <Navbar />
+      <Home />
+    </div>
   );
 };
 
