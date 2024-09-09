@@ -1,4 +1,5 @@
 import Home from './components/Home';
+import { MarqueeDemo } from './components/Marquee';
 import Navbar from './components/Navbar';
 
 const App = () => {
@@ -6,6 +7,7 @@ const App = () => {
     <div className="bg-darkClay">
       <Navbar />
       <Home />
+      <MarqueeDemo />
     </div>
   );
 };
