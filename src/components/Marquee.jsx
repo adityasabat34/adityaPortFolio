@@ -76,16 +76,16 @@ const ReviewCard = ({ img, name }) => {
     <figure
       className={cn(
         'flex flex-col items-center w-64 cursor-pointer overflow-hidden rounded-xl p-4 gap-2',
-        // Border and background styles
+
         'border-2 border-black',
         'bg-[#e8e5e0]',
-        // Light mode hover styles
+
         'bg-gray-950/[.01] hover:bg-gray-950/[.05]',
-        // Dark mode styles
+
         'dark:bg-gray-50/[.10] dark:hover:bg-gray-50/[.15]',
         'shadow-2xl'
       )}
-      style={{ margin: '5px' }} // Adding a 5px gap between cards
+      style={{ margin: '5px' }}
     >
       <img
         className="rounded-xl object-cover"
