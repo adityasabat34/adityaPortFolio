@@ -10,7 +10,7 @@ const posts = [
     author: {
       name: 'Aditya Sabat',
       role: 'Software Developer / Frontend Developer',
-      imageUrl: 'https://i.ibb.co/XJx1HYm/IMG-20240815-234910.jpg',
+      imageUrl: 'https://i.postimg.cc/5658f8Kv/IMG-20240815-234910.jpg',
     },
   },
   {
@@ -24,7 +24,7 @@ const posts = [
     author: {
       name: 'Aditya Sabat',
       role: 'Software Developer / Frontend Developer',
-      imageUrl: 'https://i.ibb.co/XJx1HYm/IMG-20240815-234910.jpg',
+      imageUrl: 'https://i.postimg.cc/5658f8Kv/IMG-20240815-234910.jpg',
     },
   },
   // More posts...
