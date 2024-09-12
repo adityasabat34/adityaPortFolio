@@ -35,17 +35,25 @@ const Projects = () => {
   ];
 
   return (
-    <div className="flex flex-wrap justify-evenly p-4">
-      {projectDetails.map((project, index) => (
-        <Card
-          key={index}
-          image={project.image}
-          title={project.title}
-          description={project.description}
-          demoLink={project.demoLink}
-          githubLink={project.githubLink}
-        />
-      ))}
+    <div className="bg-darkClay2 pt-16">
+      {/* Centered Heading */}
+      <h1 className="text-center text-3xl font-extrabold mb-12 text-gray-900">
+        Projects
+      </h1>
+
+      {/* Projects Cards */}
+      <div className="flex flex-wrap justify-evenly">
+        {projectDetails.map((project, index) => (
+          <Card
+            key={index}
+            image={project.image}
+            title={project.title}
+            description={project.description}
+            demoLink={project.demoLink}
+            githubLink={project.githubLink}
+          />
+        ))}
+      </div>
     </div>
   );
 };
