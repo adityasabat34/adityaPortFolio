@@ -105,12 +105,12 @@ const ReviewCard = ({ img, name }) => {
 export function MarqueeDemo() {
   return (
     <>
-      <h2 className="text-center mt-5 text-2xl md:text-3xl p-4 font-bold bg-darkClay1">
+      <h2 className="text-center mt-4 text-2xl md:text-3xl p-4 font-bold bg-darkClay1">
         Technical Skills
       </h2>
 
-      <div className="mt-5 bg-darkClay1 h-8"></div>
-      <div className="relative flex h-[300px] sm:h-[400px] md:h-[500px] w-full flex-col items-center justify-center gap-5 overflow-hidden bg-darkClay1 md:shadow-xl">
+      <div className="mt-4 bg-darkClay1 h-8"></div>
+      <div className="relative flex h-[300px] sm:h-[400px] md:h-[500px] w-full flex-col items-center justify-center gap-5 overflow-hidden bg-darkClay1 pb-4 md:shadow-xl">
         {/* First marquee row */}
         <Marquee pauseOnHover className="[--duration:20s]">
           {firstRow.map((review) => (
