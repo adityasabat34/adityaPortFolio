@@ -1,5 +1,5 @@
 import { useRef } from 'react';
-import emailjs from 'emailjs-com';
+import emailjs from '@emailjs/browser'; // Updated import
 
 const ContactUs = () => {
   const form = useRef();
@@ -9,10 +9,10 @@ const ContactUs = () => {
 
     emailjs
       .sendForm(
-        'service_z0wpj2p',
-        'template_64ydg87',
+        'service_z0wpj2p', // Your service ID
+        'template_64ydg87', // Your template ID
         form.current,
-        'WzSQMuApdylIfRShg'
+        'WzSQMuApdylIfRShg' // Your public key
       )
       .then(
         (result) => {
@@ -28,7 +28,6 @@ const ContactUs = () => {
 
   return (
     <div className="flex flex-col justify-center items-center min-h-screen bg-darkClay p-4">
-      {/* Moved Heading Outside the Form */}
       <h1 className="text-3xl font-extrabold mb-10 text-black text-center">
         Contact Us
       </h1>
@@ -93,4 +92,5 @@ const ContactUs = () => {
     </div>
   );
 };
+
 export default ContactUs;
