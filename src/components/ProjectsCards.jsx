@@ -17,11 +17,20 @@ const Projects = () => {
     {
       image:
         'https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80',
-      title: 'Personal Portfolio',
+      title: 'Job Portal with CRUD',
       description:
         'Built a responsive personal portfolio using React and Tailwind CSS, showcasing my projects and skills.',
 
-      githubLink: 'https://github.com/username/portfolio',
+      githubLink: 'https://github.com/adityasabat34/reactProjectJs',
+    },
+    {
+      image:
+        'https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80',
+      title: 'Cart Functionality',
+      description:
+        'Built a responsive personal portfolio using React and Tailwind CSS, showcasing my projects and skills.',
+
+      githubLink: 'https://github.com/adityasabat34/AssignmentRepo',
     },
     {
       image:
@@ -30,7 +39,7 @@ const Projects = () => {
       description:
         'Built a responsive personal portfolio using React and Tailwind CSS, showcasing my projects and skills.',
 
-      githubLink: 'https://github.com/username/portfolio',
+      githubLink: 'hhttps://github.com/adityasabat34/adityaPortfolio',
     },
   ];
 

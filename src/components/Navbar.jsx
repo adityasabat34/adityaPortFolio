@@ -1,4 +1,5 @@
 import React from 'react';
+import TextChange from './TextChanger';
 
 const Navbar = () => {
   return (
@@ -7,8 +8,8 @@ const Navbar = () => {
         <div className="flex justify-between items-center h-16">
           {/* Logo Section */}
           <div className="flex-shrink-0">
-            <a href="#home" className="text-3xl font-bold text-gray-700">
-              ADITYA
+            <a href="#home" className="text-3xl font-bold  text-black">
+              <TextChange dynamicTexts={['ADITYA', 'Welcome Buddy!']} />
             </a>
           </div>
 

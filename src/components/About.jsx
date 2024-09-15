@@ -1,7 +1,7 @@
 const AboutMe = () => {
   return (
     <div className="bg-darkClay min-h-screen flex flex-col items-center justify-center p-6">
-      <div className="bg-darkClay2 rounded-lg shadow-2xl p-8 max-w-4xl">
+      <div className="bg-darkClay2 rounded-lg shadow-2xl p-8 max-w-4xl rotateYOnHover">
         <h1 className="text-4xl font-bold text-gray-900 mb-4">About Me</h1>
         <p className="text-lg text-gray-700 mb-6">
           Hi, I’m{' '}

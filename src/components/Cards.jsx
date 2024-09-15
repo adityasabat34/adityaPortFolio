@@ -1,4 +1,5 @@
 // Card.jsx
+
 const Card = ({ image, title, description, demoLink = false, githubLink }) => {
   return (
     <div className="relative flex flex-col  my-6 bg-black transition duration-500 ease-in-out transform hover:scale-105 delay-100 shadow-sm border  border-slate-100 rounded-lg w-96">
@@ -17,7 +18,7 @@ const Card = ({ image, title, description, demoLink = false, githubLink }) => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Demo
+            Demo / App Link
           </a>
           <a
             href={githubLink}
@@ -25,7 +26,7 @@ const Card = ({ image, title, description, demoLink = false, githubLink }) => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            GitHub Link
+            Source Code
           </a>
         </div>
       ) : (
@@ -36,7 +37,7 @@ const Card = ({ image, title, description, demoLink = false, githubLink }) => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            GitHub Link
+            Source Code / GitHub Link
           </a>
         </div>
       )}
