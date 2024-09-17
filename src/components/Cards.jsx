@@ -2,7 +2,7 @@
 
 const Card = ({ image, title, description, demoLink = false, githubLink }) => {
   return (
-    <div className="relative flex flex-col  my-6 bg-black transition duration-500 ease-in-out transform hover:scale-105 delay-100 shadow-sm border  border-slate-100 rounded-lg w-96">
+    <div className="relative flex flex-col  my-6 bg-black  shadow-2xl border  border-slate-100 rounded-lg w-96">
       <div className="relative h-56 m-2.5 overflow-hidden text-white rounded-md border border-white">
         <img src={image} alt={title} className="w-full h-full object-cover" />
       </div>
